@@ -56,3 +56,12 @@ _For a more detailed look at Decision Trees, you might find these videos helpful
 - How Decision Tree Works? Beginners Guide
 - Decision Tree Classification Clearly Explained!
 - Decision Tree 1: how it works
+
+## Python Scripts
+
+To run the script, you would typically use a Python environment like Jupyter Notebook, Google Colab, or a local Python installation on your computer. Here's a step-by-step guide:
+- **Install Python:** If you haven't already, install Python on your computer. You can download it from the official Python website.
+- **Install necessary libraries:** You'll need to install the scikit-learn library, which contains the tools necessary for machine learning. You can do this using pip, Python's package installer. Open your command line and type pip install scikit-learn.
+- **Run the script:** Copy the script into a Python file (a text file with the extension .py, like iris.py), and run it using a Python interpreter. If you're using the command line, navigate to the folder containing your Python file and type python iris.py.
+The script will print the accuracy of the model to the console. This is a measure of how well the model is performing, with 1.0 being perfect accuracy.
+As for your second question, no, the machine learning model does not require GUI input. The model learns from the data you provide it (in this case, the Iris dataset), and makes predictions based on that data. All of this can be done in the command line or a text-based Python environment. However, if you want to create a more interactive experience, you could build a GUI that allows you to input different parameters, choose different models, and visualize the results. 
