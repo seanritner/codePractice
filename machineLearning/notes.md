@@ -57,6 +57,13 @@ _For a more detailed look at Decision Trees, you might find these videos helpful
 - Decision Tree Classification Clearly Explained!
 - Decision Tree 1: how it works
 
+## Running ML Tests
+
+- Purpose of running such a task: The main purpose of running a machine learning task like this is to build a model that can predict the class or category of new, unseen data based on patterns it learned from the training data. In the context of the Iris dataset, the task is to predict the species of an Iris flower based on measurements of its sepal and petal.
+- Why would I want to see a prediction?: Seeing a prediction allows you to understand how well your model is performing. By comparing the model's predictions to the actual values (which we know because this is a labeled dataset), you can measure the accuracy of your model. This is crucial in understanding the effectiveness of your model.
+- What is the prediction of?: In this specific case, the prediction is of the species of an Iris flower. The Iris dataset contains measurements of 150 iris flowers from three different species: Setosa, Versicolour, and Virginica. The model is trained to predict these species based on the input features, which are the sepal length, sepal width, petal length, and petal width.
+In a broader context, machine learning models can be used to predict a wide range of outcomes based on input data, from predicting stock prices to diagnosing diseases. The key is that the model learns patterns from the input data and applies these patterns to make predictions on new, unseen data. This is the essence of machine learning. 🧠
+
 ## Python Scripts
 
 To run the script, you would typically use a Python environment like Jupyter Notebook, Google Colab, or a local Python installation on your computer. Here's a step-by-step guide:
