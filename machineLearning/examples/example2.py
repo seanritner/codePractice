@@ -45,3 +45,20 @@ print(classification_report(y_test, y_pred))
 # pip install -U scikit-learn
 
 #This is a more complex example, but it should give you a better understanding of the steps involved in a typical machine learning workflow. Happy coding!
+
+# 1. Reading the Results:
+# - The output of the code is a confusion matrix and a classification report.
+# - A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. It allows visualization of the performance of an algorithm.
+# - A classification report shows the main classification metrics on a per-class basis. This gives a deeper intuition of the classifier behavior over global accuracy which can mask functional weaknesses in one class of a multiclass problem.
+# 2. Frame of Reference to Compare:
+# - The results of your model should be compared with a baseline. A baseline in machine learning is a model that is both simple to set up and has a reasonable chance of providing decent results.
+# - For example, in binary classification problems, a common baseline method is to always predict the majority class.
+# - The goal is to develop models that perform better than this baseline.
+# 3. Validating the Response:
+# - Model validation is a set of processes and activities designed to ensure that a machine learning model performs as it should.
+# - This includes its design objectives and utility for the end user.
+# - This can be done through testing, examining the construction of the model and the tools and data used to create it.
+# - Moreover, it is part of machine learning governance, the complete process of controlling access, implementing policies, and tracking model activity.
+# - Model validation helps catch any potential problems before they become big problems.
+# - It allows for comparing different models, allowing us to choose the best one for the task.
+# - Furthermore, it helps determine the model’s accuracy when presented with new data.
