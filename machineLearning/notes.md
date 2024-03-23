@@ -71,4 +71,12 @@ To run the script, you would typically use a Python environment like Jupyter Not
 - **Install necessary libraries:** You'll need to install the scikit-learn library, which contains the tools necessary for machine learning. You can do this using pip, Python's package installer. Open your command line and type pip install scikit-learn.
 - **Run the script:** Copy the script into a Python file (a text file with the extension .py, like iris.py), and run it using a Python interpreter. If you're using the command line, navigate to the folder containing your Python file and type python iris.py.
 The script will print the accuracy of the model to the console. This is a measure of how well the model is performing, with 1.0 being perfect accuracy.
-As for your second question, no, the machine learning model does not require GUI input. The model learns from the data you provide it (in this case, the Iris dataset), and makes predictions based on that data. All of this can be done in the command line or a text-based Python environment. However, if you want to create a more interactive experience, you could build a GUI that allows you to input different parameters, choose different models, and visualize the results. 
+As for your second question, no, the machine learning model does not require GUI input. The model learns from the data you provide it (in this case, the Iris dataset), and makes predictions based on that data. All of this can be done in the command line or a text-based Python environment. However, if you want to create a more interactive experience, you could build a GUI that allows you to input different parameters, choose different models, and visualize the results.
+
+ ## Iris Dataset
+ You can find the raw data for the Iris dataset in several places:
+- GitHub: There is a version of the Iris dataset available on GitHub. This dataset is often used for testing out machine learning algorithms and visualizations. Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters.
+- Scikit-learn: The Iris dataset is included in the scikit-learn library. You can load it using the datasets.load_iris() function. This dataset consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) petal and sepal length, stored in a 150x4 numpy.ndarray.
+- CSV file on GitHub: There is also a CSV file of the Iris dataset available on GitHub.
+- Pandas: You can use the pandas library's read_csv function to load the Iris dataset from a file or URL.
+Remember to always check the terms and conditions of the data source to ensure you have permission to use the data. 
